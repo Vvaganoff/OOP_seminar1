@@ -16,7 +16,23 @@ public class Main {
         hotDrinkList.add(latte);
         hotDrinkList.add(tea);
         hotDrinkList.add(teaWithLemon);
-        HotDrinksVendingMachine hotDrinksVendingMachine = new HotDrinksVendingMachine(hotDrinkList);
-        System.out.println(hotDrinksVendingMachine.getProduct("Американо", 300, 75));
+        System.out.println("Список напитков в аппарате:");
+        HotDrinksVendingMachine hotDrinksVendingMachine1 = new HotDrinksVendingMachine(hotDrinkList);
+        for (HotDrink hotDrink:hotDrinksVendingMachine1
+             ) {
+            System.out.println(hotDrink.toString());
+        }
+        System.out.println("========================");
+        System.out.println("Напиток по критериям отбора:");
+        System.out.println(hotDrinksVendingMachine1.getProduct("Американо", 300, 75));
+        System.out.println("========================");
+        System.out.println("Отсортированный по стоимости список напитков в аппарате:");
+        hotDrinkList.sort(new CostComparator());
+        HotDrinksVendingMachine hotDrinksVendingMachine2 = new HotDrinksVendingMachine(hotDrinkList);
+        for (HotDrink hotDrink:hotDrinksVendingMachine2
+        ) {
+            System.out.println(hotDrink.toString());
+        }
+        System.out.println("========================");
     }
 }
