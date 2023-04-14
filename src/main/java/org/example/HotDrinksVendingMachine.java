@@ -50,7 +50,6 @@ public class HotDrinksVendingMachine implements VendingMachine, Iterable<HotDrin
             public HotDrink next() {
                 return products.get(index++);
             }
-
         };
         return it;
     }

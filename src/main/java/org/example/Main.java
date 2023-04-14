@@ -16,6 +16,7 @@ public class Main {
         hotDrinkList.add(latte);
         hotDrinkList.add(tea);
         hotDrinkList.add(teaWithLemon);
+
         System.out.println("Список напитков в аппарате:");
         HotDrinksVendingMachine hotDrinksVendingMachine1 = new HotDrinksVendingMachine(hotDrinkList);
         for (HotDrink hotDrink:hotDrinksVendingMachine1

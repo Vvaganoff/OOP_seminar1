@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8938ab81-7e95-4a3d-a5a5-01bc150ee96a" name="Changes" comment="Добавлено решение задачи семинара 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CostComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8938ab81-7e95-4a3d-a5a5-01bc150ee96a" name="Changes" comment="Добавлено решение задачи семинара 3: добален итератор, возможность цикла foreach и сортировка по стоимости в классе HotVendingMachine">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CostComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CostComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HotDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HotDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HotDrinksVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HotDrinksVendingMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +68,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680772153658</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлено решение задачи семинара 3">
+      <created>1681495801567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681495801567</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавлено решение задачи семинара 3: добален итератор, возможность цикла foreach и сортировка по стоимости в классе HotVendingMachine">
+      <created>1681495887113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681495887113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Добавлено решение задачи семинара 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено решение задачи семинара 1" />
+    <MESSAGE value="Добавлено решение задачи семинара 3" />
+    <MESSAGE value="Добавлено решение задачи семинара 3: добален итератор, возможность цикла foreach и сортировка по стоимости в классе HotVendingMachine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено решение задачи семинара 3: добален итератор, возможность цикла foreach и сортировка по стоимости в классе HotVendingMachine" />
   </component>
 </project>

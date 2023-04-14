@@ -27,9 +27,9 @@ public abstract class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-               "name='" + name + '\'' +
-               ", cost=" + cost +
+        return "Продукт{" +
+               "Наименование:" + name + '\'' +
+               ", Стоимость:" + cost +
                '}';
     }
 }

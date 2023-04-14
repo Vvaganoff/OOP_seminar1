@@ -51,7 +51,6 @@ public class HotDrink extends Product {
         if (!(o instanceof HotDrink that)) {
             return false;
         }
-
         return super.getName().equalsIgnoreCase(that.getName())
                 && super.getCost() == that.getCost()
                 && getVolume() == that.getVolume();
